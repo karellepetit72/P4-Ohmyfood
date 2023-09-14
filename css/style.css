@@ -1,4 +1,18 @@
-header img{
-    display: flex;
-    justify-content: center;
+body {
+  margin: 0;
+  padding: 0;
 }
+
+header {
+  background-color: black;
+}
+
+/* Small devices (phones, less than 768px)
+@media (min-width: 767.98px) {
+ }
+  */
+.location {
+  background-color: #EAEAEA;
+}
+
+/*# sourceMappingURL=style.css.map */
