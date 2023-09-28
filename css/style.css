@@ -4,15 +4,29 @@ body {
 }
 
 header {
-  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 63px;
 }
 
-/* Small devices (phones, less than 768px)
-@media (min-width: 767.98px) {
- }
-  */
+/* Small devices (phones, less than 768px)*/
 .location {
   background-color: #EAEAEA;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 310px;
+  height: 40px;
+  gap: 17px;
+}
+
+.search {
+  color: #353535;
+}
+
+.btn-rstaurants {
+  background: linear-gradient(193.33deg, #9356DC -11.44%, #FF79DA 123.93%);
 }
 
 /*# sourceMappingURL=style.css.map */

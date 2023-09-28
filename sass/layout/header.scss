@@ -1,9 +1,11 @@
-header{
-    background-color: black;
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 63px;
 }
 
-
-/* Small devices (phones, less than 768px)
+ /* Small devices (phones, less than 768px)*/
 @media (min-width: 767.98px) {
  }
-  */
+  
