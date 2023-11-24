@@ -1,5 +1,16 @@
-.btn-rstaurants{
-   
-    background: linear-gradient(193.33deg, #9356DC -11.44%, #FF79DA 123.93%);
+.btn-restaurants{
+    font-size: 16px;
+    color: white;
+    font-weight: 500;
+    width: 218px;
+    height: 50px;
+    border-radius: 25px;
+    background: var(--Button-Gradient, linear-gradient(193deg, #9356DC -11.44%, #FF79DA 123.93%));
+    border: none;
+    margin: 20px 0;
+    cursor: pointer;
 
+
+/* Shadow/Button */
+    box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25);
 }

@@ -5,28 +5,85 @@ body {
 
 header {
   display: flex;
-  align-items: center;
   justify-content: center;
-  height: 63px;
+  align-items: center;
+  font-family: roboto;
+}
+
+header img {
+  width: 160px;
+  margin-top: 20px;
+  margin-bottom: 10px;
 }
 
 /* Small devices (phones, less than 768px)*/
+h1 {
+  font-family: "Roboto", sans-serif;
+}
+
+h2 {
+  font-family: "Roboto", sans-serif;
+}
+
+h3 {
+  font-family: "Roboto", sans-serif;
+}
+
+h4 {
+  font-family: "Roboto", sans-serif;
+}
+
+p {
+  font-family: "Roboto", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
 .location {
-  background-color: #EAEAEA;
+  background: var(--Grey-2, #EAEAEA);
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 310px;
   height: 40px;
   gap: 17px;
 }
 
-.search {
-  color: #353535;
+.location i {
+  padding: 17px;
 }
 
-.btn-rstaurants {
-  background: linear-gradient(193.33deg, #9356DC -11.44%, #FF79DA 123.93%);
+.reservations {
+  background: #F6F6F6;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.reservations h1 {
+  font-size: 25px;
+}
+
+.reservations p {
+  font-size: 16px;
+}
+
+.btn-restaurants {
+  font-size: 16px;
+  color: white;
+  font-weight: 500;
+  width: 218px;
+  height: 50px;
+  border-radius: 25px;
+  background: var(--Button-Gradient, linear-gradient(193deg, #9356DC -11.44%, #FF79DA 123.93%));
+  border: none;
+  margin: 20px 0;
+  cursor: pointer;
+  /* Shadow/Button */
+  box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25);
 }
 
 /*# sourceMappingURL=style.css.map */

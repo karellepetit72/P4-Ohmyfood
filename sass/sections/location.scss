@@ -1,14 +1,13 @@
-
 .location{
-    background-color: $grey;
+    background: var(--Grey-2, #EAEAEA);
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 310px;
     height: 40px;
     gap: 17px;
 }
 
-.search{
-    color: #353535;
+.location i{
+ padding: 17px;
 }
+

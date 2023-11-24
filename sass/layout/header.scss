@@ -1,8 +1,14 @@
-header {
+header{
     display: flex;
-    align-items: center;
     justify-content: center;
-    height: 63px;
+    align-items: center;
+    font-family: roboto;
+}
+
+header img{
+    width: 160px;
+    margin-top: 20px;
+    margin-bottom: 10px;
 }
 
  /* Small devices (phones, less than 768px)*/
