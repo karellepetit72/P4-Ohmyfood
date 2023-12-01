@@ -3,14 +3,10 @@ body {
   padding: 0;
 }
 
-header {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-family: roboto;
-}
-
 header img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   width: 160px;
   margin-top: 20px;
   margin-bottom: 10px;
@@ -65,10 +61,31 @@ a {
 
 .reservations h1 {
   font-size: 25px;
+  width: 275px;
+  height: 68px;
+  flex-shrink: 0;
 }
 
 .reservations p {
   font-size: 16px;
+  font-weight: 300;
+}
+
+.fonctionnement h2 {
+  width: 275px;
+  height: 31px;
+  margin: 20px;
+}
+
+.menu-fonctionnement {
+  border-radius: 20px;
+  background: var(--Background, #F6F6F6);
+  box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.15);
+}
+
+.number {
+  width: 24px;
+  height: 24px;
 }
 
 .btn-restaurants {

@@ -9,8 +9,12 @@
 
 .reservations h1{
     font-size: 25px;
+    width: 275px;
+    height: 68px;
+    flex-shrink: 0;
 }
 
 .reservations p{
     font-size: 16px;
+    font-weight: 300;
 }
