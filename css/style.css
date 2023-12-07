@@ -12,6 +12,11 @@ header img {
   margin-bottom: 10px;
 }
 
+header i {
+  width: 30px;
+  height: 30px;
+}
+
 /* Small devices (phones, less than 768px)*/
 h1 {
   font-family: "Roboto", sans-serif;
@@ -35,6 +40,11 @@ p {
 
 a {
   text-decoration: none;
+}
+
+.restau {
+  width: 375px;
+  /*height: 275px;*/
 }
 
 .location {
@@ -101,6 +111,39 @@ a {
   cursor: pointer;
   /* Shadow/Button */
   box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25);
+}
+
+.container-restaurants {
+  background-color: var(--Background, #F6F6F6);
+  padding: 20px 0 25px 0;
+}
+.container-restaurants h2 {
+  margin-left: 15px;
+}
+
+.restaurant-cards {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  margin: auto;
+  border-radius: 15px;
+  background-color: white;
+  width: 90%;
+}
+.restaurant-cards .card {
+  color: black;
+}
+.restaurant-cards .card img {
+  width: 100%;
+}
+.restaurant-cards .card h3 {
+  margin-left: 15px;
+}
+.restaurant-cards .card p {
+  font-size: 17px;
+  font-weight: 300;
+  margin-left: 15px;
 }
 
 /*# sourceMappingURL=style.css.map */

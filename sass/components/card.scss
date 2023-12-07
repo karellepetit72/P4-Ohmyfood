@@ -1,0 +1,35 @@
+.container-restaurants{
+    background-color: var(--Background, #F6F6F6);
+    padding: 20px 0 25px 0;
+    h2{
+        margin-left: 15px;
+    }
+}
+
+
+.restaurant-cards{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    margin: auto;
+    border-radius: 15px;
+    background-color: white;
+    width: 90%;
+    .card{
+        color: black;
+        img{
+            width: 100%;
+        }
+        h3{
+            margin-left: 15px;
+        }
+        p{
+            font-size: 17px;
+            font-weight: 300;
+            margin-left: 15px;
+        }
+
+    }
+}
+
