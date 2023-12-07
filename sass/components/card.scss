@@ -1,4 +1,4 @@
-.container-restaurants{
+.restaurants{
     background-color: var(--Background, #F6F6F6);
     padding: 20px 0 25px 0;
     h2{
@@ -14,12 +14,15 @@
     margin-bottom: 20px;
     margin: auto;
     border-radius: 15px;
-    background-color: white;
     width: 90%;
     .card{
+        background-color: white;
         color: black;
+        margin-top: 20px;
+        border-radius: 15px;
         img{
             width: 100%;
+            border-radius: 15px 15px 0px 0px;
         }
         h3{
             margin-left: 15px;
@@ -28,6 +31,7 @@
             font-size: 17px;
             font-weight: 300;
             margin-left: 15px;
+            margin-top: -15px;
         }
 
     }
